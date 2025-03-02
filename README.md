@@ -1,12 +1,54 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+The Weather App is a simple and intuitive web application that allows users to check the current weather conditions of any city in the world. It fetches real-time weather data from an external API and displays essential weather details such as temperature, humidity, wind speed, and weather conditions.
 
-Currently, two official plugins are available:
+## Features
+- Search for weather details by city name
+- Display current temperature, humidity, wind speed, and weather description
+- User-friendly interface with responsive design
+- Background changes based on weather conditions (optional feature)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- Frontend: HTML, CSS, JavaScript (React.js if applicable)
+- Backend: Node.js, Express.js (if applicable)
+- API: OpenWeatherMap API (or any other weather API)
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd weather-app
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Create a `.env` file and add your API key:
+   ```
+   REACT_APP_WEATHER_API_KEY=your_api_key_here
+   ```
+5. Start the development server:
+   ```bash
+   npm start
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+1. Enter the city name in the search bar.
+2. Click the "Search" button to fetch weather details.
+3. View the weather conditions displayed on the screen.
+
+## API Key Setup
+To use the weather API, sign up at [OpenWeatherMap](https://openweathermap.org/) and obtain an API key. Replace `your_api_key_here` in the `.env` file with your actual API key.
+
+## Contributing
+Contributions are welcome! Feel free to submit a pull request or report issues in the repository.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For any questions or support, reach out to [gajbharsnjdcoem.ac.in  Github].
